@@ -153,11 +153,11 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "lint-staged" 
     }
   },
   "lint-staged": {
-    "**/*": "prettier --write --ignore-unknown"
+    "**/*": ["prettier --write --ignore-unknown ","eslint"]
   },
   "babel": {
     "presets": [
