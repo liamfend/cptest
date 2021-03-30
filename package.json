@@ -159,9 +159,8 @@
     }
   },
   "lint-staged": {
-    "**/*": [
-      "prettier --write --ignore-unknown ",
-      "eslint",
+    "**/*.tsx": [
+      "eslint --fix",
       "git add"
     ]
   },
