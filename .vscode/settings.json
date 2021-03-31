@@ -2,11 +2,11 @@
     "editor.formatOnSave": true,
     "[markdown]": {
         "editor.formatOnSave": true
-      },
-      "[typescript]": {
+    },
+    "[typescript]": {
         "editor.formatOnSave": true
-      },
-      "[typescriptreact]": {
+    },
+    "[typescriptreact]": {
         "editor.formatOnSave": true
-      },
+    }
 }

@@ -1,15 +1,19 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './App.css'
 
-function App() {
+interface IProps {
+    test: stringsss
+}
+
+
+function App(props: IProps) {
+    useEffect(() => {
+        console.log(props)
+    }, [])
     return (
         <div className="App">
             <div>aa</div>dsafds
-            <div>bb 
-                
-                
-                
-                dsafdsaf</div       >
+            <div>bb dsafdsaf</div>
         </div>
     )
 }
