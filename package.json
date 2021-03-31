@@ -161,8 +161,8 @@
     },
     "lint-staged": {
         "./src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
-            "echo 'bbbb'",
-            "git add"
+            "eslint",
+            "prettier --write"
         ]
     },
     "babel": {
