@@ -5,17 +5,17 @@ jobs:
             - image: circleci/node:10-browsers
         setps:
             - run:
-              name: hello world
-              command: |
-                  echo 'aaaa test hello world'
+                  name: hello world
+                  command: |
+                      echo 'aaaa test hello world'
     i-have-code:
         docker:
             - image: circleci/node:10-browsers
         setps:
             - run:
-              name: hello world 2
-              command: |
-                  echo 'aaaa test hello world'
+                  name: hello world 2
+                  command: |
+                      echo 'aaaa test hello world'
 workflow:
     version: 2
     Example_Workflow:
