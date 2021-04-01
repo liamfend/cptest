@@ -9,13 +9,13 @@ jobs:
               command: |
                   echo 'aaaa test hello world'
     i-have-code:
-        docker:
+          docker:
               - image: circleci/node:10-browsers
-          setps:
-              - run:
-                name: hello world 2
-                command: |
-                    echo 'aaaa test hello world'
+             setps:
+                - run:
+                  name: hello world 2
+                  command: |
+                      echo 'aaaa test hello world'
 workflow:
   version: 2
   Example_Workflow:
