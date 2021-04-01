@@ -83,7 +83,7 @@
         "build": "node scripts/build.js",
         "test": "node scripts/test.js",
         "prepare": "husky install",
-        "lints": "eslint --fix  "
+        "lints": "eslint ./src/**/*.tsx  --fix"
     },
     "browserslist": {
         "production": [

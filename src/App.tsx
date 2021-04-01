@@ -2,9 +2,8 @@ import React, { useEffect } from 'react'
 import './App.css'
 
 interface IProps {
-    test: stringsss
+    test: string
 }
-
 
 function App(props: IProps) {
     useEffect(() => {
