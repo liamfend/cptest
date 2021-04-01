@@ -83,7 +83,7 @@
         "build": "node scripts/build.js",
         "test": "node scripts/test.js",
         "prepare": "husky install",
-        "lints": "eslint ./src/**/*.tsx  --fix"
+        "lint-staged": "lint-staged"
     },
     "browserslist": {
         "production": [
@@ -149,11 +149,6 @@
             "jest-watch-typeahead/testname"
         ],
         "resetMocks": true
-    },
-    "husky": {
-        "hooks": {
-            "pre-commit": "echo 'aaaa'"
-        }
     },
     "lint-staged": {
         "./src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
