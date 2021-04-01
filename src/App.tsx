@@ -8,6 +8,7 @@ interface IProps {
 function App(props: IProps) {
     useEffect(() => {
         console.log(props)
+        console.log('aaa')
     }, [])
     return (
         <div className="App">
