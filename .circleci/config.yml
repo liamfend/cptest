@@ -23,5 +23,6 @@ workflows:
         jobs:
             - hello-world
             - i-have-code:
+                  type: approval
                   requires:
                       - hello-world
