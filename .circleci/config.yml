@@ -32,10 +32,10 @@ workflows:
         jobs:
             - hello-world
             - i-have-code:
-                  type: approval
                   requires:
                       - hello-world
             - deploy:
+                  type: approval
                   requires:
                       - i-have-code
                       - i-have-code2
