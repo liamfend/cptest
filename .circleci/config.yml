@@ -25,7 +25,14 @@ jobs:
                   name: hello world 3
                   command: |
                       echo 'aaaa test hello world3333'
-
+    deploy:
+        docker:
+            - image: circleci/node:10-browsers
+        steps:
+            - run:
+                  name: hello world 344444444
+                  command: |
+                      echo 'aaaa test hello 444444'
 workflows:
     version: 2
     myflows:
