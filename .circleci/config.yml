@@ -34,7 +34,7 @@ workflows:
             - i-have-code:
                   requires:
                       - hello-world
-            - i-have-code2
+            - i-have-code2:
                   requires:
                       - hello-world
             - deploy:
