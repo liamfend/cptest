@@ -8,5 +8,6 @@
     },
     "[typescriptreact]": {
         "editor.formatOnSave": true
-    }
+    },
+    "circleci-vscode.apiToken": "3fec118d77a79c85bbadd0506f3bbc5c10e20038"
 }
